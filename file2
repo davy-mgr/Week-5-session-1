@@ -2,5 +2,5 @@
 
 for ((i = 0 ; i <= 1000 ; i++))
 do 
- 	echo "counter; $i"
+	echo "$( shuf -i 0-10 -n 1)"
 done
